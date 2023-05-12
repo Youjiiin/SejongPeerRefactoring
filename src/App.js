@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import Header from "./components/Header/Header.js";
+import Matching from "./components/Form/Matching.js";
+
 import './App.css';
 
+
 function App() {
+  // const [menuIsShown, setMenuIsShown] = useState(false);
+
+  // const shwoMenuHandler = () => {
+  //   setMenuIsShown(true);
+  // };
+
+  // const hideMenuHandler = () => {
+  //   setMenuIsShown(false);
+  // }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <div className="inner_wrapper">
+        <Header />
+        <main>
+          <Matching />
+        </main>
+      </div>
     </div>
   );
 }

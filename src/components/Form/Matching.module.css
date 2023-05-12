@@ -1,0 +1,15 @@
+.wrapper{
+    position: relative;
+    width: 356px;
+    height: 100%;
+    margin: 0px;
+    overflow: scroll;
+}
+
+.formWrapper{
+    display: flex;
+    align-items: center;
+    width: 356px;
+    height: 90%;
+    transition: transform 0.3s ease 0.1s;
+}

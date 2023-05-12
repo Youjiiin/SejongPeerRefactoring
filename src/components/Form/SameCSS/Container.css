@@ -1,0 +1,29 @@
+.container {
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+}
+
+.con3{
+    top: -30px;
+}
+.con2{
+    top: -60px;
+}
+.sel {
+    top: -110px;
+}
+.fin{
+    top: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 0px;
+}
